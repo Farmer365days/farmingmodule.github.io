@@ -1,0 +1,71 @@
+/* Navbar Styles */
+.navbar navbar-brand {
+  font-size: 6em;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+/* jumbotron styles */
+
+.jumbotron {
+  class="img-responsive";
+  height: 120px;
+  padding-top:4px;
+  padding-bottom: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+#banner {
+  class="img-responsive";
+ background-image: url("C:/farming module/img/bg-home.jpg");
+ color: white;
+ height: 600px;
+ padding-top: 0px;
+ margin-top: 0px;
+ background-repeat: no-repeat;
+ background-size:cover;
+ filter: brightness(80%);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    margin-left: 25px;
+    margin-top: 75px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem; }
+
+.card-body {
+    flex: 1;
+    padding-top: 1rem;
+       }
+
+  /*    .card-form{
+       opacity:0.8; */
